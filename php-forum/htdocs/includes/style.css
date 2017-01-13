@@ -1,0 +1,181 @@
+/* This is the style sheet for the php final website */
+
+* {
+	margin: 0;
+	padding: 0;
+	}
+	
+body {
+	background-color: #eee;
+	}
+	
+div#container {
+	width: 100%;
+	height: auto;
+	min-width: 600px;
+	}
+	
+div#main {
+	width: 100%;
+	height: auto;
+	min-height: 400px;
+	background-color: white;
+	background-color: #eee;
+	}
+	
+div#main p {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 20px;
+	}
+	
+div#header {
+	width: 100%;
+	height: auto;
+	background-color: blue;
+	}
+
+div#header-right {
+	float: right;
+	width: 250px;
+	height: auto;
+	padding: 20px 0;
+	}
+	
+div#header h1 {
+	color: blue;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 60px;
+	}
+	
+div#footer {
+	width: 100%;
+	min-height: 150px;
+	height: auto;
+	text-align: center;
+	}
+	
+div#form-box {
+	width: 30%;
+	min-width: 200px;
+	height: auto;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	background-color: white;
+	}
+	
+div#new-thread {
+	width: 30%;
+	min-width: 200px;
+	height: auto;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	}
+	
+table#forum-list {
+	width: 80%;
+	height: auto;
+	margin: 20px auto;
+	padding: 5px;
+	border: solid 1px #CCC;
+	background-color: white;
+	}
+	
+div#message-list {
+	width: 80%;
+	height: auto;
+	margin: 20px auto;
+	padding: 5px;
+	border: solid 1px #CCC;
+	background-color: white;
+	}
+	
+table#thread-list {
+	width: 80%;
+	height: auto;
+	margin: 20px auto;
+	padding: 5px;
+	border: solid 1px #CCC;
+	background-color: white;
+	}
+	
+table#thread-message {
+	width: 100%;
+	height: auto;
+	border-collapse: collapse;
+	margin: 20px auto;
+	padding: 5px;
+	border: solid 1px #CCC;
+	background-color: white;
+	}
+	
+table#thread-message td {
+	border: solid 1px #CCC;
+	}
+	
+td.header {
+	color: white;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 20px;
+	background-color: blue;
+	padding: 10px;
+	}
+	
+table tr td {
+	padding: 10px 5px;
+	}
+	
+table tr td a {
+	color: blue;
+	text-decoration: none;
+	}
+	
+table tr td a:hover {
+	text-decoration: underline;
+	}
+	
+p.welcome {
+	color: white;
+	font-size: 25px;
+	}
+	
+a.new-thread {
+	text-decoration: none;
+	}
+	
+a.new-thread:hover {
+	text-decoration: underline;
+	}
+	
+a.log {
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	}
+	
+a.log:hover {
+	text-decoration: underline;
+	}
+	
+p.error {
+	color: red;
+	font-family: Verdana, Arial, sans-serif;
+	text-align: center;
+	}
+	
+.center {
+	text-align: center;
+	}
+	
+.left {
+	float: left;
+	}
+	
+.right {
+	float: right;
+	}
+	
+.blue {
+	color: blue;
+	}

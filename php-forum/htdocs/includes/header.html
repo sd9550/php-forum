@@ -1,0 +1,37 @@
+<?php
+	
+	// Testing purposes
+	//$_SESSION['user_id'] = 2;
+	//$_SESSION['user_tz'] = 'America/New_York';
+	// For logging out
+	//$_SESSION = array();
+
+	// Database conection
+	require ('../mysqli_connect.php');
+
+?>
+<!DOCTYPE html>
+<meta charset="UTF-8" />
+<title><?php echo $page_title; ?></title>
+
+<link rel="stylesheet" href="includes/style.css" type="text/css" />
+
+<div id="container">
+
+<div id="header">
+
+	<div id="header-right">
+	<?php
+	if (isset($_COOKIE['user_name'])) {
+		echo '<p class="welcome">Welcome ' . $_COOKIE['user_name'] . '</p>
+		<a href="account.php" class="log">Account Settings</a><br />
+		<a href="logout.php" class="log">Logout</a>';
+	} else {
+		echo '<p class="welcome"><a href="register.php" class="log">Register</a> or<br /><a href="login.php" class="log">Login</a></p>';
+	}
+	?>
+	</div>
+	
+	<p><a href="index.php"><img src="pics/logo.png" /></a></p> <!-- logo -->
+	
+</div><!-- header ends here -->
